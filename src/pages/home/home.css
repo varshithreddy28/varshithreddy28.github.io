@@ -1,0 +1,166 @@
+#home {
+  color: var(--hometext);
+  height: 100vh;
+  font-family: calc(--textfont);
+}
+.container_ {
+  margin: 0 4%;
+}
+.pic img {
+  width: 100%;
+  height: 90vh;
+}
+.details {
+  display: grid;
+  grid-template-columns: 1fr 0.65fr;
+}
+span#name {
+  color: #a904ee;
+  font-size: 2.5em;
+  letter-spacing: 1px;
+  font-family: var(--headdingfont);
+}
+a#hireme {
+  background: #dbd8e3;
+  padding: 12px 28px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  color: #1a1c22;
+  border: 2px solid #dbd8e3;
+  cursor: pointer;
+  transition: transform 0.2s;
+  height: 3em;
+}
+button#getresume {
+  background: none;
+  padding: 11px 24px;
+  border: 2px solid var(--getresume);
+  border-radius: 5px;
+  color: var(--getresume);
+  font-weight: 600;
+  letter-spacing: 1px;
+  transition: transform 0.2s;
+  height: 3em;
+}
+
+a#hireme:hover {
+  transform: scale(1.2);
+  background-color: white;
+  color: #000;
+}
+button#getresume:hover {
+  transform: scale(1.2);
+  background-color: white;
+  color: #000;
+  border: white;
+}
+span.intro {
+  font-size: 1.75em;
+}
+.myintro {
+  font-size: 3.5em;
+  margin-top: 20px;
+}
+.imake {
+  font-size: 1.5em;
+  color: var(--textcolor);
+  font-weight: 350;
+  margin-top: 1em;
+}
+.imakeHighlight {
+  font-weight: 600;
+  letter-spacing: 1.2px;
+}
+.xfg1.aos-init.aos-animate {
+  /* position: relative; */
+  /* top: 15vh; */
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+}
+.contactme {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 1em;
+  gap: 10em;
+}
+.break {
+  display: none;
+}
+@media only screen and (max-width: 1290px) {
+  .myintro {
+    font-size: 3em;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .myintro {
+    font-size: 2.5em;
+  }
+  span.intro {
+    font-size: 1.5em;
+  }
+}
+
+@media only screen and (max-width: 780px) {
+  .pic {
+    display: none;
+  }
+  .details {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+  }
+  .contactme {
+    justify-content: space-evenly;
+  }
+}
+@media only screen and (max-width: 620px) {
+  .break {
+    display: block;
+  }
+}
+@media only screen and (max-width: 475px) {
+  span.intro {
+    font-size: 1.2em;
+  }
+  .myintro {
+    font-size: 2em;
+  }
+  .imake {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 402px) {
+  span.intro {
+    font-size: 1.1em;
+  }
+  .myintro {
+    font-size: 1.6em;
+  }
+  .imake {
+    font-size: 1.1em;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .contactme {
+    display: grid;
+    justify-content: space-evenly;
+    gap: 2em;
+    grid-template-columns: 0.95fr;
+  }
+  a#hireme,
+  button#getresume {
+    width: 100%;
+  }
+  a#hireme:hover {
+    transform: scale(1.06);
+  }
+  button#getresume:hover {
+    transform: scale(1.06);
+  }
+}

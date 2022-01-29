@@ -1,0 +1,64 @@
+:root {
+  --background: #000;
+  --background1: #1a1c22;
+  --secondary: #3d3a50;
+  --seconddark: #580ef6;
+  --typeeffect: #ced6b2;
+  --textcolor: #fef4f4;
+  --iconcolor: #fff;
+  --iconsbg: #a904ee;
+  --headdingfont: "Dongle", sans-serif;
+  --textfont: "Source Sans Pro", sans-serif;
+  --getresume: #dbd8e3;
+
+  --light: #f7f7f7;
+  --lightblue: #cdfffc;
+  --lightbrown: #faf3e0;
+  --textcolor2: #f3bb1f;
+  --textcolor3: #f3bb1f;
+  --hometext: #737373;
+}
+
+[data-theme="light"] {
+  /* light themes */
+
+  --background: #e9d5a1;
+  --typeeffect: #dd0b0b;
+  --textcolor: rgba(0, 0, 51, 0.829);
+  --iconcolor: rgba(4, 4, 43, 0.801);
+  --textcolor2: #084d7a;
+  --lightsecondhighlight: #dd0b0b;
+  --textcolor3: #f3bb1f;
+  --contactbackground: rgb(236, 240, 240);
+  --hometext: #504e4e;
+  --iconsbg: lightgrey;
+  --getresume: #1f1f20;
+}
+
+/* #2b2726,#403541,#8e43ed,#f0ec8b */
+
+/* Light COlors : #dbd8e3,#eeeeee */
+
+/* redish: #efb7b7, #bd4b4b */
+
+/* blueish: #bc6ff1 , #892cdc */
+
+/* Greenandblue: #00adb5, #00fff5 */
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* color: #dbd8e3; */
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+h1 {
+  color: var(--textcolor);
+}

@@ -1,0 +1,136 @@
+.contacticons {
+  /* border-radius: 2px; */
+  display: grid;
+  grid-gap: 30px;
+  gap: 30px;
+  margin-bottom: 1.2rem;
+  padding: 1em;
+}
+.contacticons a img {
+  width: 2em;
+}
+
+#contacticons_ {
+  /* top: 12%; */
+  height: auto;
+  background-color: var(--iconsbg);
+  /* display: ; */
+  position: absolute;
+  right: 0;
+  border-radius: 2em 0 0 2em;
+}
+.themechange {
+  position: absolute;
+  top: -26%;
+  right: 10%;
+}
+
+/* Slider */
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  /* height: 50px; */
+  background-color: orange;
+  /* background-image: url(../../assets//sun.svg); */
+  transition: 0.4s;
+  /* width: 100px; */
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 24px;
+  width: 24px;
+  left: 4px;
+  bottom: 8px;
+  background-color: #ccc;
+  padding: 14px;
+  /* margin-top: 200px; */
+  top: 3px;
+  background-image: url(../../assets//sun.svg);
+
+  transition: 0.4s;
+}
+
+input:checked + .slider {
+  background-color: #000;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #b48cdada;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(26px);
+  background-image: url(../../assets//moon.svg);
+  /* left: 28px; */
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+.blob {
+  display: flex;
+  justify-content: center;
+}
+
+.themechange_mobile {
+  display: none;
+}
+
+.themechange_mobile {
+  position: absolute;
+  left: 0;
+  /* top: 500px; */
+  width: 100px;
+}
+
+.desktopView:hover {
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 620px) {
+  .contacticons {
+    gap: 18px;
+    padding: 8px;
+  }
+  #contacticons_ {
+    border-radius: 1em 0 0 1em;
+  }
+  .contacticons a img {
+    width: 1.5em;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .contacticons {
+    gap: 14px;
+    padding: 4px;
+  }
+  #contacticons_ {
+    border-radius: 0.6em 0 0 0.6em;
+  }
+}

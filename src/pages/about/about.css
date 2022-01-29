@@ -1,0 +1,107 @@
+.aboutPage {
+  width: 100%;
+  height: 100vh;
+  background-color: var(--background1);
+  color: #fff;
+}
+.aboutHeader {
+  padding: 2.8rem 0;
+  font-family: var(--headdingfont);
+  color: #f7f7ff;
+}
+.aboutHeader h1 {
+  font-size: 4em;
+  /* font-weight: 400; */
+}
+svg.abouticons {
+  font-size: 2em;
+  margin-right: 10px;
+}
+.skilltype {
+  display: flex;
+  align-items: center;
+  font-size: 2.8em;
+  gap: 20px;
+  color: var(--textcolor3);
+}
+.skills {
+  font-size: 1.5em;
+  letter-spacing: 1.5px;
+  color: var(--lightbrown);
+}
+div#about {
+  display: flex;
+  align-items: flex-end;
+  /* gap: 1; */
+}
+.aboutImg {
+  width: 100%;
+}
+.aboutImg img {
+  float: right;
+}
+@media only screen and (max-width: 1300px) {
+  .aboutImg img {
+    width: 80%;
+  }
+  .aboutImg {
+    width: auto;
+  }
+}
+@media only screen and (max-width: 1200px) {
+  .aboutImg img {
+    width: 60%;
+  }
+  div#about {
+    align-items: center;
+  }
+  .aboutHeader {
+    padding-bottom: 10px;
+  }
+  .skilltype {
+    font-size: 2.2em;
+  }
+  .skills {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 995px) {
+  .aboutImg {
+    display: none;
+  }
+  .aboutHeader h1 {
+    font-size: 3em;
+    font-weight: 400;
+  }
+  .skilltype {
+    font-size: 2.3em;
+  }
+  .skills {
+    font-size: 1.2em;
+    margin-bottom: 24px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .aboutHeader h1 {
+    font-size: 2.5em;
+    font-weight: 400;
+  }
+  .skilltype {
+    font-size: 2.2em;
+  }
+  .skills {
+    font-size: 1.2em;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .aboutHeader h1 {
+    font-size: 2em;
+    font-weight: 400;
+  }
+  .skilltype {
+    font-size: 1.6em;
+  }
+  .skills {
+    font-size: 1em;
+  }
+}

@@ -1,0 +1,76 @@
+.contactPage {
+  width: 100%;
+  height: 100vh;
+  color: var(--textcolor);
+  background-color: var(--contactbackground);
+  /* background-color: rgb(255, 0, 234); */
+}
+.containerContact {
+  padding: 0 20%;
+  /* width: calc(100% - 50px); */
+}
+#contactHeader {
+  padding: 1em 0;
+  text-align: center;
+  font-family: var(--headdingfont);
+  font-size: 4em;
+}
+/* .inputLabel {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+} */
+.contactdetails {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 2.5em;
+}
+input[type="text"] {
+  width: -webkit-fill-available;
+  margin-bottom: 1.4em;
+  background: #3c3e43;
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+  color: var(--lightbrown);
+}
+input[type="email"] {
+  width: -webkit-fill-available;
+  background: #3c3e43;
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+  color: var(--lightbrown);
+  /* margin-bottom: 1.4em; */
+}
+textarea[type="text"] {
+  width: -webkit-fill-available;
+  margin-bottom: 1.4em;
+  background: #3c3e43;
+  padding: 16px;
+  border-radius: 4px;
+  border: none;
+  color: var(--lightbrown);
+}
+.submitbtn button {
+  /* display: flex; */
+  float: right;
+  padding: 10px 28px;
+  border: none;
+  background-color: #04f8e2;
+  border-radius: 6px;
+  color: black;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+@media only screen and (max-width: 950px) {
+  .containerContact {
+    padding: 0 10%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .contactdetails {
+    display: block;
+    margin-bottom: 1.4em;
+  }
+}
