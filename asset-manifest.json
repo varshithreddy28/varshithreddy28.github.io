@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.6d4ad9d0.css",
-    "main.js": "/static/js/main.9f6de36c.js",
+    "main.js": "/static/js/main.47dac763.js",
     "static/js/787.6a2fdb1f.chunk.js": "/static/js/787.6a2fdb1f.chunk.js",
     "static/media/VarshithResume.pdf": "/static/media/VarshithResume.f3f1ab8b5003a5a07fdc.pdf",
     "static/media/programming.svg": "/static/media/programming.dbec703f7131d86d1ebb5dbf06d2e41e.svg",
@@ -10,9 +10,9 @@
     "static/media/pic.svg": "/static/media/pic.79a0b414407cf20455c15a5b51125d4e.svg",
     "static/media/picDark.svg": "/static/media/picDark.2194392fdb147993c45f93b751ca38f4.svg",
     "static/media/websitebuild.svg": "/static/media/websitebuild.5979773e6b517798e966ff68422f72b3.svg",
+    "index.html": "/index.html",
     "static/media/instagram.svg": "/static/media/instagram.a765d084435ef531b7236c8384b7fe4e.svg",
     "static/media/instagramDark.svg": "/static/media/instagramDark.aabb2784d0a3962de1119416256d39e8.svg",
-    "index.html": "/index.html",
     "static/media/github.svg": "/static/media/github.2039f6a380c9103a5b0ed51f89844b48.svg",
     "static/media/githubDark.svg": "/static/media/githubDark.b45b67794fb6aed8d93be86c4528d111.svg",
     "static/media/sun.svg": "/static/media/sun.f29ed74e44910056297cd4655cd2f2f0.svg",
@@ -23,11 +23,11 @@
     "static/media/times.svg": "/static/media/times.ed2b9ab9e71415269db892f4137ed07c.svg",
     "static/media/bars.svg": "/static/media/bars.7ff4a5b5634cea7a0e1313c563865427.svg",
     "main.6d4ad9d0.css.map": "/static/css/main.6d4ad9d0.css.map",
-    "main.9f6de36c.js.map": "/static/js/main.9f6de36c.js.map",
+    "main.47dac763.js.map": "/static/js/main.47dac763.js.map",
     "787.6a2fdb1f.chunk.js.map": "/static/js/787.6a2fdb1f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d4ad9d0.css",
-    "static/js/main.9f6de36c.js"
+    "static/js/main.47dac763.js"
   ]
 }
