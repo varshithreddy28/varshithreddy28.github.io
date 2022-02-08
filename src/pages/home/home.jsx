@@ -31,7 +31,7 @@ export default function Home(props) {
             data-aos-duration="3000"
             className=" xfg1"
           >
-            <div>
+            <div alt="Varshith Reddy Portfolio">
               <span className="intro">
                 <span id="hiemoji">{`👋🏻`}</span>
                 HELLO THERE, {`I AM `}
