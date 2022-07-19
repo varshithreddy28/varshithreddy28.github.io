@@ -51,7 +51,7 @@ export const About = ({ theme }) => {
               <AiFillCode />
               <span>Languages : </span>
             </div>
-            <div className="skills">C JavaScript Python</div>
+            <div className="skills">C JavaScript Python Java</div>
           </div>
           <div
             data-aos="zoom-in-right"

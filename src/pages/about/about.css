@@ -5,7 +5,7 @@
   color: #fff;
 }
 .aboutHeader {
-  padding: 2.8rem 0;
+  padding: 2.8rem 0 0 0;
   font-family: var(--headdingfont);
   color: #f7f7ff;
 }
@@ -31,7 +31,8 @@ svg.abouticons {
 }
 div#about {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
+  height: -webkit-fill-available;
   /* gap: 1; */
 }
 .aboutImg {
