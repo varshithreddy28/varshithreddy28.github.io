@@ -1,9 +1,9 @@
 {
   "files": {
-    "main.css": "/static/css/main.6d4ad9d0.css",
-    "main.js": "/static/js/main.47dac763.js",
+    "main.css": "/static/css/main.7a853743.css",
+    "main.js": "/static/js/main.d9f34095.js",
     "static/js/787.6a2fdb1f.chunk.js": "/static/js/787.6a2fdb1f.chunk.js",
-    "static/media/VarshithResume.pdf": "/static/media/VarshithResume.f3f1ab8b5003a5a07fdc.pdf",
+    "static/media/VarshithResume.pdf": "/static/media/VarshithResume.e11e4af9e7b343d04d95.pdf",
     "static/media/programming.svg": "/static/media/programming.dbec703f7131d86d1ebb5dbf06d2e41e.svg",
     "static/media/weatheranalyzer.webp": "/static/media/weatheranalyzer.67bb568fce080a886aa8.webp",
     "static/media/electrostore.webp": "/static/media/electrostore.27faea4baf828aa04842.webp",
@@ -22,12 +22,12 @@
     "static/media/moon.svg": "/static/media/moon.9b116679c929e618fb1ef4540a83e9b9.svg",
     "static/media/times.svg": "/static/media/times.ed2b9ab9e71415269db892f4137ed07c.svg",
     "static/media/bars.svg": "/static/media/bars.7ff4a5b5634cea7a0e1313c563865427.svg",
-    "main.6d4ad9d0.css.map": "/static/css/main.6d4ad9d0.css.map",
-    "main.47dac763.js.map": "/static/js/main.47dac763.js.map",
+    "main.7a853743.css.map": "/static/css/main.7a853743.css.map",
+    "main.d9f34095.js.map": "/static/js/main.d9f34095.js.map",
     "787.6a2fdb1f.chunk.js.map": "/static/js/787.6a2fdb1f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d4ad9d0.css",
-    "static/js/main.47dac763.js"
+    "static/css/main.7a853743.css",
+    "static/js/main.d9f34095.js"
   ]
 }
