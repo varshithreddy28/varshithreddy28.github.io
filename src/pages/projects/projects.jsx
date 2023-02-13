@@ -32,7 +32,7 @@ export default function Projects(props) {
         id: 1,
         title: "Weather Analyzer",
         discription: project1Discription,
-        demourl: "https://weatheranalyzer.herokuapp.com/",
+        demourl: "https://weatheranalyzer.onrender.com/",
         code: ["https://github.com/varshithreddy28/weatheranalyzer"],
         icons: [
           <SiNodedotjs className="techIcons" />,
